@@ -4,21 +4,26 @@ padding: 0;
 box-sizing: border-box;
 }
 
+
 div{
     border: 1px solid black;
 
 }
  body{
-    background:gray;
-    
+    background-image:url(./img/foto7.avif);    
  }
-
+h1,h2{
+    color: antiquewhite;
+}
 .container {
 width: 100vw;
 height: 100vh;
 position: relative;
 }
-
+.rightpic {
+    float: right; /* Выравнивание по правому краю */
+    margin: 2px 15px 5px 5px; /* Отступы вокруг фотографии */
+   }
 .block{
     position: absolute;
     top: 10px;
@@ -28,6 +33,6 @@ position: relative;
    
 }
 
-
-
-
+.color-text {
+    color: blanchedalmond;
+}
