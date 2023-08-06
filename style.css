@@ -5,15 +5,20 @@ box-sizing: border-box;
 }
 
 
-div{
-    border: 1px solid black;
 
-}
+
+
  body{
     background-image:url(./img/foto7.avif);    
  }
 h1,h2{
     color: antiquewhite;
+}
+p{
+    color: cornsilk;
+}
+label{
+    color: aliceblue;
 }
 .container {
 width: 100vw;
@@ -35,4 +40,12 @@ position: relative;
 
 .color-text {
     color: blanchedalmond;
+}
+.img-size{
+    width: 100px;
+}
+footer{
+    background-color: black;
+    color: blanchedalmond;
+    text-align: center;
 }
